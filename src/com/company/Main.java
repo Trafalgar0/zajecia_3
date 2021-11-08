@@ -1,6 +1,6 @@
 package com.company;
-import javax.swing.JFrame;
-import javax.swing.SwingUtilities;
+import javax.swing.*;
+import java.awt.*;
 
 public class Main {
 
@@ -10,8 +10,9 @@ public class Main {
         {
             public void run()
             {
-                JFrame frame = new JFrame("Logowanie");
-                frame.setSize(500,400);
+                LoginFrame frame = new LoginFrame();
+                frame.setSize(440,440);
+                frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 frame.setVisible(true);
             }
         });
