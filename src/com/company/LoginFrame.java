@@ -3,6 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.HashMap;
 
 public class LoginFrame extends JFrame implements ActionListener {
 
@@ -54,13 +55,18 @@ public class LoginFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == loginButton) {
-            String userText;
-            String pwdText;
-            userText = userTextField.getText();
-            pwdText = passwordField.getText();
-            if (userText.equalsIgnoreCase("mehtab") && pwdText.equalsIgnoreCase("12345")) {
+            HashMap<String, String> danePoprawne = new HashMap<String, String>();
+            danePoprawne.put("Login", "Hasło");
+            HashMap<String, String> daneLogowania = new HashMap<String, String>();
+            daneLogowania.put(userTextField.getText(), passwordField.getText());
+            System.out.println(danePoprawne);
+            System.out.println(daneLogowania);
+
+            if(danePoprawne.equals(daneLogowania))
+            {
                 getContentPane().setBackground(Color.green);
-            } else
+            }
+            else
             {
                 getContentPane().setBackground(Color.red);
             }
