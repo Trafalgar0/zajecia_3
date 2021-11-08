@@ -59,8 +59,6 @@ public class LoginFrame extends JFrame implements ActionListener {
             danePoprawne.put("Login", "Hasło");
             HashMap<String, String> daneLogowania = new HashMap<String, String>();
             daneLogowania.put(userTextField.getText(), passwordField.getText());
-            System.out.println(danePoprawne);
-            System.out.println(daneLogowania);
 
             if(danePoprawne.equals(daneLogowania))
             {

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486ed609-133e-4171-ad01-5531cad6467b" name="Changes" comment="jeszcze raz">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +134,7 @@
       <workItem from="1636402531185" duration="6000" />
       <workItem from="1636402576438" duration="411000" />
       <workItem from="1636403007379" duration="61000" />
-      <workItem from="1636403088451" duration="4238000" />
+      <workItem from="1636403088451" duration="4342000" />
     </task>
     <task id="LOCAL-00001" summary="jeszcze raz">
       <created>1636404500040</created>
