@@ -3,7 +3,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
 import java.util.HashMap;
+import java.util.Random;
 
 public class LoginFrame extends JFrame implements ActionListener {
 
@@ -48,13 +50,25 @@ public class LoginFrame extends JFrame implements ActionListener {
 
     public void addActionEvent() {
         loginButton.addActionListener(this);
+        loginButton.addMouseListener(this);
         cancelButton.addActionListener(this);
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+        super.mouseEntered(e);
+        Random rand = new Random();
+
+        int y= rand.nextInt(y_max);
+        int x= rand.nextInt(x_max);
+        runing.setLocation(x,y);
     }
 
 
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == loginButton) {
+
             HashMap<String, String> danePoprawne = new HashMap<String, String>();
             danePoprawne.put("Login", "Hasło");
             HashMap<String, String> daneLogowania = new HashMap<String, String>();
@@ -75,6 +89,7 @@ public class LoginFrame extends JFrame implements ActionListener {
         {
             userTextField.setText("");
             passwordField.setText("");
+            setBackground(Color.white);
         }
         }
     }
