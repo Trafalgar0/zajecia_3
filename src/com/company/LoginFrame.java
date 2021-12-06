@@ -56,11 +56,11 @@ public class LoginFrame extends JFrame implements ActionListener {
         loginButton.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseEntered(MouseEvent e) {
-                    super.mouseEntered(e);
-                    Random rand = new Random();
-                    y= rand.nextInt(y_max);
-                    x= rand.nextInt(x_max);
-                    loginButton.setLocation(x,y);
+                        super.mouseEntered(e);
+                        Random rand = new Random();
+                        y= rand.nextInt(y_max);
+                        x= rand.nextInt(x_max);
+                        loginButton.setLocation(x,y);
             }
         });
     }

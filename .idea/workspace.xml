@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="486ed609-133e-4171-ad01-5531cad6467b" name="Changes" comment="jeszcze raz">
-      <change afterPath="$PROJECT_DIR$/src/com/company/DrawingCanvas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/Key.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/LoginFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LoginFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +145,7 @@
       <workItem from="1638789244193" duration="63000" />
       <workItem from="1638789361244" duration="81000" />
       <workItem from="1638789468414" duration="35000" />
-      <workItem from="1638791191907" duration="19007000" />
+      <workItem from="1638791191907" duration="20220000" />
     </task>
     <task id="LOCAL-00001" summary="jeszcze raz">
       <created>1636404500040</created>
