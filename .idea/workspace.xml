@@ -137,7 +137,12 @@
       <workItem from="1636403007379" duration="61000" />
       <workItem from="1636403088451" duration="4342000" />
       <workItem from="1636407620895" duration="200000" />
-      <workItem from="1638786154475" duration="1253000" />
+      <workItem from="1638786154475" duration="1337000" />
+      <workItem from="1638789103023" duration="84000" />
+      <workItem from="1638789209964" duration="14000" />
+      <workItem from="1638789244193" duration="63000" />
+      <workItem from="1638789361244" duration="81000" />
+      <workItem from="1638789468414" duration="35000" />
     </task>
     <task id="LOCAL-00001" summary="jeszcze raz">
       <created>1636404500040</created>
@@ -151,6 +156,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
